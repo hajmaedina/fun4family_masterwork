@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+
+  // @media screen and (min-width: 768px) and (max-width: 1700px) {
+  //   display: flex;
+  //   flex-direction: row;
+  // }
+}
+
+.card {
+  width: 250px;
+  height: fit-content;
+  margin: 12px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 999;
+}
+
+label {
+  width: max-content;
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 0.5px solid tomato;
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: gold;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(88, 87, 87);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(185, 184, 184);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.visitor-navbar,
+.logged-in-navbar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.logout {
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.login {
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.register {
+  background-color: slateblue;
+  margin-right: 10px;
+}
+
+.profile {
+  background-color: slateblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.contact {
+  background-color: coral;
+  margin-right: 10px;
+}
+
+#popup {
+  z-index: 2;
+}
+
+#marker {
+  z-index: 1;
+}
+
+.logged-in-navbar {
+  display: flex;
+  padding-top: 10px;
+}
+
+.welcome-text {
+  color: tomato;
+  display: flex;
+}
+
+#personIcon {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1700px) {
+  .app {
+
+    display: flex;
+    flex-direction: row;
+  }
+}

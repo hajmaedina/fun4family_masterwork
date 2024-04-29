@@ -1,0 +1,43 @@
+.sort-by-rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  background-color: teal;
+
+  .header-div {
+    margin: 0;
+    width: 100%;
+    color: white;
+  }
+
+  .h3-pinPlace {
+    color: coral;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .back-btn {
+    background-color: teal;
+    padding: 7px;
+    color: white;
+    border-radius: 3px;
+    margin: 10px 0;
+    &:hover {
+      color: white;
+    }
+  }
+
+  .rate-card {
+    margin: 10px 0;
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+    background-color: white;
+  }
+}

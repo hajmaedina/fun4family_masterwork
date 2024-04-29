@@ -1,0 +1,70 @@
+.registerContainer {
+  width: 300px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registerCancel {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Nerko One", cursive;
+  word-spacing: -0.7rem;
+  font-size: 2rem;
+  color: teal;
+}
+
+.four {
+  color: slateblue;
+}
+
+.family {
+  color: coral;
+}
+
+.registerBtn {
+  border: none;
+  padding: 5px;
+  background-color: slateblue;
+  color: white;
+  cursor: pointer;
+}
+
+.success {
+  font-size: 12px;
+  color: teal;
+  text-align: center;
+}
+
+.failure {
+  font-size: 12px;
+  color: red;
+  text-align: center;
+}
+
+.success-message {
+  font-size: 16px;
+  line-height: 2rem;
+  padding-bottom: 10px;
+}

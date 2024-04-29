@@ -1,0 +1,56 @@
+.recommender {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-color: coral;
+  
+    .header-div {
+      margin: 0;
+      width: 100%;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .h3-pinPlace {
+      color: teal;
+      margin: 10px 0;
+    }
+  
+    h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+    .back-btn {
+      background-color: coral;
+      padding: 7px;
+      color: white;
+      border-radius: 3px;
+      margin: 10px 0;
+      &:hover {
+        color: white;
+      }
+    }
+  
+    .rate-card {
+      margin: 10px 0;
+      width: 90%;
+      height: fit-content;
+      padding: 10px;
+      background-color: white;
+    }
+
+    .location-btn {
+      background-color: teal;
+      color: white;
+    }
+
+    .p-status {
+      color: white;
+      padding: 10px 0;
+    }
+  }

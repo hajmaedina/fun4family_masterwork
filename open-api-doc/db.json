@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "_id": "60c77f12835fce44a438d19b",
+      "username": "Anna",
+      "email": "a.miller@gmail.com",
+      "password": "appletree",
+      "__v": 0
+    },
+    {
+      "_id": "60c85751c52edb357c48b74e",
+      "username": "Márta-7893",
+      "email": "marti@gmail.com",
+      "password": "$2a$10$hfCLZ.VVBCLcT3N0B3wYbO/NS7C.y.CPh//RnlfWHf.l1ZELfr7hK",
+      "__v": 0
+    },
+    {
+      "_id": "60c85772c52edb357c48b74f",
+      "username": "petike37",
+      "email": "molnarp@gmail.com",
+      "password": "$2a$10$AE4NnlInqerraH06PVzxoeZIQ.0jXCzRQcjDTEB34Nx/TV5lcPIji",
+      "__v": 0
+    },
+    {
+      "_id": "60c85794c52edb357c48b750",
+      "username": "Nelli",
+      "email": "nelli453@gmail.com",
+      "password": "$2a$10$h/Y2R3XTodqW9VSygOjwB.D5AudWh38yjdpeFD8O45NOdiM05enIa",
+      "__v": 0
+    },
+    {
+      "_id": "60cb483abe6557674c51f5bc",
+      "username": "kov.andras",
+      "email": "kov.andras@gmail.com",
+      "password": "$2a$10$NtDI4Er1gdyW424TaPAGa.GxYmWEjxelaio4OUxA2ew62upq3klxC",
+      "__v": 0
+    },
+    {
+      "_id": "3tDLv1YPv_ZH5m3QB3jPiQGp",
+      "username": "anna.miller",
+      "email": "a.miller@gmail.com",
+      "password": "appletree"
+    }
+  ],
+  "pins": [
+    {
+      "_id": "74gs3N4JUHVqt0M1A46tdn68",
+      "username": "margitka024",
+      "place": "Benkő Zoltán Szabadidő központ",
+      "desc": "Nagyszerű hely! Már sokszor jártunk itt!",
+      "rating": 4,
+      "lat": 46,
+      "long": 48
+    },
+    {
+      "_id": "MjPOaN4JUHVqkr85A46tdn68",
+      "username": "almafa984",
+      "place": "Kecskeméti Vadaspark",
+      "desc": "Imádjuk! Tiszta és rendezett!",
+      "rating": 5,
+      "lat": 47,
+      "long": 48
+    },
+    {
+      "_id": "MjPOaN4JUHVqt0M1A464tdnj",
+      "username": "kortefa939ha",
+      "place": "Csodák palotája",
+      "desc": "Itt senki nem fog unatkozni!",
+      "rating": 4,
+      "lat": 46,
+      "long": 48
+    },
+    {
+      "_id": "MjPOaN4JUHVqt0M1A46tdn68",
+      "username": "margitka024",
+      "place": "Benkő Zoltán Szabadidő központ",
+      "desc": "Nagyszerű hely! Már sokszor jártunk itt!",
+      "rating": 4
+    },
+    {
+      "_id": "HOyHpUjvsjoNqCUQONVV5gNq",
+      "username": "anna5446",
+      "place": "Budapesti Állatkert",
+      "desc": "Szuper hely",
+      "rating": 4,
+      "lat": 48,
+      "long": 46
+    }
+  ],
+  "comments": [
+    {
+      "_id": "MjPOaNkhrswqt0M1A46tdn68",
+      "username": "anna52",
+      "desc": "Szuper hely! Máskor is eljövünk!",
+      "pinId": "wellf78nszbfjsjh",
+      "rating": 4
+    },
+    {
+      "_id": "p72r5N4JUHVqt0M1A46tdn68",
+      "username": "molnarbandi",
+      "desc": "Ár-érték arányban a legjobb választás! Garantált szórakozás!",
+      "pinId": "87498fhalbqo48z8fnlísh9r7",
+      "rating": 4
+    },
+    {
+      "_id": "DYp5S4ujzhons6hKkBPgQVN9",
+      "username": "anna52",
+      "desc": "Szuper hely!",
+      "pinId": "wellf78nszbfjsjh",
+      "rating": 4
+    },
+    {
+      "_id": "60c77f12835fce44a438d19b",
+      "username": "anna52",
+      "desc": "Szuper hely! Máskor is eljövünk!",
+      "pinId": "wellf78nszbfjsjh",
+      "rating": 4
+    }
+  ],
+  "messages": [
+    {
+      "_id": "94r21d4JUHVqt0M1A46tdn68",
+      "name": "annacska39ha",
+      "email": "anna45@freemail.hu",
+      "message": "Nagyon elégedett vagyok az alkalmazással! Sokszor kimentett már szorult helyzetekből!"
+    },
+    {
+      "_id": "74r21g4JUHVqt0M1A46tdn68",
+      "name": "szabo3947",
+      "email": "szklari@freemail.hu",
+      "message": "Mióta rátaláltam az alkalmazásra rendszeresen használom!"
+    },
+    {
+      "_id": "fLueKz4dnkOOPkfRiSJJeGq-",
+      "name": "anna5446",
+      "email": "anna9qn@freemail.hu",
+      "message": "Üdv! Nagyon szeretjük az alkalmazást, de jó lenne ha képeket is fel lehetne tölteni."
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "6zrk314JUHVqt0M1A46tdn68",
+      "username": "melinda38792",
+      "review": "Mióta rátaláltam az alkalmazásra rendszeresen használom!"
+    },
+    {
+      "_id": "7r32j64JUHVqt0M1A46tdn68",
+      "username": "bogyoka007",
+      "review": "Minden hétvégi programot innen nézek ki és még sosem csalódtam!"
+    }
+  ]
+}

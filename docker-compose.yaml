@@ -1,0 +1,47 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    ports:
+    - '27037:27017'
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongo localhost:27017/test --quiet
+  open-api-doc:
+    build: open-api-doc
+    ports:
+      - '5500:5500'
+    volumes:
+      - /app/node_modules
+      - ./open-api-doc:/app
+  frontend:
+    build: frontend
+    environment:
+      - REACT_APP_MAPBOX=${REACT_APP_MAPBOX}
+      - REACT_APP_MAPSTYLE=${REACT_APP_MAPSTYLE}
+      - REACT_APP_MAILJS_SERVICE_ID=${REACT_APP_MAILJS_SERVICE_ID}
+      - REACT_APP_MAILJS_TEMPLATE_ID=${REACT_APP_MAILJS_TEMPLATE_ID}
+      - REACT_APP_MAILJS_USER_ID=${REACT_APP_MAILJS_USER_ID}
+      - REACT_APP_GOOGLE_API_KEY=${REACT_APP_GOOGLE_API_KEY}
+      - REACT_APP_SERVER_URL=${REACT_APP_SERVER_URL}
+    ports:
+      - '3000:3000'
+    volumes:
+      - /app/node_modules
+      - ./frontend:/app
+    depends_on:
+      - backend
+  backend:
+    build: backend
+    ports:
+      - '5000:5000'
+    environment:
+      - DB_CONNECT=${DB_CONNECT}
+      - TOKEN_SECRET=${TOKEN_SECRET}
+      - DB_TEST_CONNECT=${DB_TEST_CONNECT}
+      # - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - /app/node_modules
+      - ./backend:/app
+#    depends_on:
+#      mongo:
+#        condition: service_healthy

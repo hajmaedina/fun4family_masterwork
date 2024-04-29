@@ -1,0 +1,35 @@
+.comments-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comments {
+    width: 100%;
+}
+
+.comments-header {
+  background-color: teal;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+
+  h2 {
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+  }
+
+  p {
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .username {
+      align-self: flex-end;
+  }
+}

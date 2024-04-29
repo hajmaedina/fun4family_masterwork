@@ -1,0 +1,16 @@
+.pin-btn {
+    outline: none;
+    border: none;
+    background-color: coral;
+    color: white;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+#popup, #popup-card {
+    z-index: 1000;
+}
+
+#room, #marker {
+    z-index: 1;
+}
